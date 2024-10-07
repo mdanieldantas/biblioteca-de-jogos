@@ -2,6 +2,10 @@
 
 Biblioteca de Jogos é um aplicativo web desenvolvido com React que permite gerenciar uma coleção de jogos, persistindo os dados no local storage do navegador.
 
+![Modelo 1](./public/image1.png)
+![Modelo 2](./public/image2.png)
+
+
 ## Funcionalidades
 
 - 📚 Adicionar novos jogos à coleção
