@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Game from "./components/Game"
+import NewGameForm from "./components/NewGameForm"
 
 function App() {
   const [games, setGames] = useState(() => {
@@ -32,7 +33,7 @@ function App() {
   return (
     <div className="app">
       <h1>Biblioteca de Jogos</h1>
-
+<NewGameForm addGame={addGame} />
       <div className="games">
         {games.map((game) => (
           <Game
